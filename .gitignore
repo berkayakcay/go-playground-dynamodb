@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+bin
+
 
 # Test binary, built with `go test -c`
 *.test
@@ -13,3 +15,16 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# vscode and idea dirs
+.vscode
+.idea
+
+# Unneeded files and dirs
+.DS_Store
+coverage.txt
+coverage.out
+
+# files that should not be there for security reasons
+.netrc
+.env
